@@ -14,21 +14,21 @@ import { useAuth } from "@clerk/nextjs";
 import { Dialog, DialogClose } from "@radix-ui/react-dialog";
 
 const components: { title: string; href: string; description: string }[] = [
-    {
-        title: "Marketing Page",
-        href: "/marketing-page",
-        description: "Write some wavy here to get them to click.",
-    },
-    {
-        title: "Marketing Page",
-        href: "/marketing-page",
-        description: "Write some wavy here to get them to click.",
-    },
-    {
-        title: "Marketing Page",
-        href: "/marketing-page",
-        description: "Write some wavy here to get them to click.",
-    },
+    //{
+    //    title: "Marketing Page",
+    //    href: "/marketing-page",
+    //    description: "Write some wavy here to get them to click.",
+    //},
+    //{
+    //    title: "Marketing Page",
+    //    href: "/marketing-page",
+    //    description: "Write some wavy here to get them to click.",
+    //},
+    //{
+    //    title: "Marketing Page",
+    //    href: "/marketing-page",
+    //    description: "Write some wavy here to get them to click.",
+    //},
 ];
 
 export default function NavBar() {

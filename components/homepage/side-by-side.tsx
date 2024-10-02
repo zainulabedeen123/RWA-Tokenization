@@ -5,19 +5,19 @@ import { TITLE_TAILWIND_CLASS } from '@/utils/constants'
 
 const features = [
   {
-    name: 'Build faster.',
+    name: 'Sign Up with Google:',
     description:
-      'Get up and running in no time with pre-configured settings and best practices. Say goodbye to setup and focus on what truly matters - building your application.',
+      'Create an account using your Google login for fast access. Connect your crypto wallet or let us create one for you, and get started with investing in minutes.',
     icon: Computer,
   },
   {
-    name: 'Focus on business logic.',
-    description: 'Concentrate on solving business problems instead of dealing with the repetitive setup.',
+      name: 'Browse Projects and Invest:',
+      description: 'Explore our curated list of projects in construction, Green Tech, and AI/Robotics.',
     icon: FaBusinessTime,
   },
   {
-    name: 'Ready for scale.',
-    description: 'Prepare for growth from day one. With built-in optimizations and scalable architecture, your application will be ready to handle increased traffic and complexity.',
+      name: 'Track Investments and Returns:',
+      description: 'Monitor the progress of your investments in real-time. View project milestones, ROI updates, and receive notifications when your tokens appreciate in value or mature.',
     icon: Network,
   },
 ]
@@ -30,10 +30,10 @@ export default function SideBySide() {
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
               <p className={`${TITLE_TAILWIND_CLASS} mt-2 font-semibold tracking-tight dark:text-white text-gray-900`}>
-                Nextjs Starter Kit: A faster way to production
+               Investing Made Simple with Blockchain Power
               </p>
               <p className="mt-6 leading-8 text-gray-600 dark:text-gray-400">
-                Accelerate your development with this powerful Nextjs Starter Kit
+                              A straightforward guide to start investing in real-world assets.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature) => (

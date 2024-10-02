@@ -9,10 +9,12 @@ export default function HeroSection() {
     return (
         <section className='flex flex-col items-center justify-center leading-6 mt-[3rem]' aria-label="Nextjs Starter Kit Hero">
             <h1 className={`${TITLE_TAILWIND_CLASS} scroll-m-20 font-semibold tracking-tight text-center max-w-[1120px] bg-gradient-to-b dark:text-white`}>
-                Nextjs Starter Kit: Build & Ship Fast
+                Revolutionize Your Investments
             </h1>
             <p className="mx-auto max-w-[700px] text-gray-500 text-center mt-2 dark:text-gray-400">
-                The Ultimate Nextjs 14 Starter Kit for quickly building your SaaS, giving you time to focus on what really matters
+                Invest in construction, Green Tech, and AI/Robotics securely and transparently through blockchain.
+
+
             </p>
             <div className="flex justify-center items-center gap-3">
                 <Link href="/dashboard" className="mt-5">
@@ -22,7 +24,7 @@ export default function HeroSection() {
                 </Link>
 
                 <Link
-                    href="https://discord.gg/HUcHdrrDgY"
+                    href="https://discord.gg"
                     target='_blank'
                     className="mt-5"
                     aria-label="Join Discord (opens in a new tab)"
@@ -33,7 +35,7 @@ export default function HeroSection() {
                     </Button>
                 </Link>
                 <Link
-                    href="https://github.com/michaelshimeles/nextjs14-starter-template"
+                    href="https://www.binance.com/en-GB"
                     target='_blank'
                     className='animate-buttonheartbeat border p-2 rounded-full mt-5 hover:dark:bg-black hover:cursor-pointer'
                     aria-label="View NextJS 14 Starter Template on GitHub"
@@ -45,18 +47,18 @@ export default function HeroSection() {
                 <div className="relative flex max-w-6xl justify-center overflow-hidden mt-7">
                     <div className="relative rounded-xl">
                         <Image
-                            src="https://utfs.io/f/31dba2ff-6c3b-4927-99cd-b928eaa54d5f-5w20ij.png"
-                            alt="Nextjs Starter Kit Dashboard Preview"
+                            src="https://utfs.io/f/XlNOM5gnOXxMEQsargA4JLx10kV7hvUuw8SYmHyBs2dopFZW"
+                            alt="RWA Tokenization Dashboard Preview"
                             width={1100}
                             height={550}
                             priority={true}
                             className="block rounded-[inherit] border object-contain shadow-lg dark:hidden"
                         />
                         <Image
-                            src="https://utfs.io/f/69a12ab1-4d57-4913-90f9-38c6aca6c373-1txg2.png"
+                            src="https://utfs.io/f/XlNOM5gnOXxMEQsargA4JLx10kV7hvUuw8SYmHyBs2dopFZW"
                             width={1100}
                             height={550}
-                            alt="Nextjs Starter Kit Dark Mode Dashboard Preview"
+                            alt="RWA Tokenization Dark Mode Dashboard Preview"
                             priority={true}
                             className="dark:block rounded-[inherit] border object-contain shadow-lg hidden"
                         />
