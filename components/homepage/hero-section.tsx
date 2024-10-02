@@ -55,7 +55,7 @@ export default function HeroSection() {
                             className="block rounded-[inherit] border object-contain shadow-lg dark:hidden"
                         />
                         <Image
-                            src="https://utfs.io/f/XlNOM5gnOXxMEQsargA4JLx10kV7hvUuw8SYmHyBs2dopFZW"
+                            src="https://utfs.io/f/XlNOM5gnOXxMvoP1GkgXBGlEHI51bzmJQYZdSp60MT9twXuW"
                             width={1100}
                             height={550}
                             alt="RWA Tokenization Dark Mode Dashboard Preview"
